@@ -1,0 +1,7 @@
+.pieDePag{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    background: #A13333;
+}

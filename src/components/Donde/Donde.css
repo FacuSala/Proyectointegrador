@@ -1,0 +1,45 @@
+.cuerpoPrin{
+    display: flex;
+    flex-direction: column;
+}
+
+.cajaLugar img{
+    width: 100%;
+    padding: 1rem;
+}
+
+.encPrin{
+    font-weight: bold;
+    color: yellow;
+}
+
+.segEnc{
+    text-align: center;
+    color: #F2D388;
+    padding-bottom: 1rem;
+}
+
+.conteneDonde p{
+    font-size: large;
+    color: white;
+}
+
+.terEnc{
+    font-size: large;
+    color: #FBFACD;
+}
+
+/*tablets*/
+@media(min-width:768px){
+    .cajaLugar img{
+        width: 80%
+    }
+}
+
+/*escritorio*/
+
+@media(min-width:992px){
+    .cajaLugar img{
+        width: 60%
+    }
+}

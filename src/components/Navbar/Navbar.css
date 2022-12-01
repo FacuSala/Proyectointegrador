@@ -1,0 +1,44 @@
+.cabecera {
+    font-family: 'Kanit', sans-serif;
+    height: 17vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: #040303;
+}
+
+.cajaLink {
+    width: 12%;
+    justify-content: center;
+    margin: 5rem 1.5rem;
+}
+
+.cajaLink a{
+    text-decoration: none;
+    color: #B3541E;
+    font-size: medium;
+}
+
+.cajaLogo img {
+    width: 100%;
+    height: 100%;
+}
+
+/*tablets*/
+@media(min-width:768px){
+    .cajaLink{
+        margin: 5rem 3rem;
+    }
+    .cajaLink a{
+        font-size: large;
+    }
+}
+
+/*escritorio*/
+
+@media(min-width:992px){
+    .cajaLink{
+        margin: 5rem 3.5rem;
+    }
+}

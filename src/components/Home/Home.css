@@ -1,0 +1,31 @@
+.cuerpo {
+    height: 100%;
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #461111;
+}
+
+.contenedor{
+    margin: 2rem;
+    width: 80%;
+}
+
+.contenedor p{
+    text-align: center;
+    font-size: large;
+    color: #FBFACD;
+}
+
+.tituloPrincipal{
+    text-align: center;
+    font-weight: bold;
+    color: yellow;
+}
+
+.subTitulo{
+    text-align: center;
+    color: #F2D388;
+}

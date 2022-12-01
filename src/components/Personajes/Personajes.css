@@ -1,0 +1,25 @@
+.cuerpoPrin{
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #461111;
+}
+
+.intro{
+    text-align: center;
+    color: #FBFACD;
+    font-size: large;
+}
+
+.encaFiltro{
+    color: yellow;
+}
+
+.botonFiltro{
+    margin-bottom: 0.5rem;
+    width: 25vw;
+    color: #F2D388;
+    background-color: #A13333;
+    text-align: center;
+}
